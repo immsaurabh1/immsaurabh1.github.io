@@ -1,1 +1,35 @@
+title: Saurabh Mishra - Senior Software Engineer | Frontend Lead & Full Stack Developer
+description: Senior Software Engineer with 9+ years of experience leading frontend and full-stack teams across insurance tech, edtech, and adtech
+author: Saurabh Mishra
+email: saurabh1512@live.com
+url: https://immsaurabh1.github.io
+baseurl: ""
+
+# Build settings
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO settings
+lang: en_US
+locale: en_US
+timezone: Asia/Kolkata
+
+# Social media
+twitter:
+  username: immsaurabh
+  card: summary_large_image
+
+# Google Analytics (add your tracking ID when available)
+google_analytics: UA-XXXXXXXXX-X
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
