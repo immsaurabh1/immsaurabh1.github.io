@@ -1,0 +1,20 @@
+/* Portfolio layout tweaks for GitHub Pages */
+:root{--accent:#7f52ff;--fg:#24292e;--muted:#57606a;--border:#d0d7de;--bg:#ffffff;}
+*{box-sizing:border-box}
+.hero{display:flex;flex-direction:column;align-items:center;gap:.5rem;padding:2.5rem 1rem 1.25rem;border-radius:12px;background:linear-gradient(135deg,#7f52ff15,#00b4d815)}
+.hero h1{margin:0;font-size:2.0rem;line-height:1.2;text-align:center}
+.hero p{margin:0;color:var(--muted);text-align:center}
+.section{margin:2rem 0}
+.section h2{font-size:1.35rem;margin:.25rem 0 1rem}
+.badges{display:flex;flex-wrap:wrap;gap:.4rem}
+.badges img{height:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.card{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:1rem}
+.card h3{margin-top:.25rem;margin-bottom:.5rem;font-size:1.05rem}
+.card p{color:var(--muted);margin:.25rem 0 .75rem}
+.small{color:var(--muted);font-size:.95rem}
+.center{text-align:center}
+.contact{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center}
+.contact a{display:inline-block}
+img.stat{width:100%;border:1px solid var(--border);border-radius:8px}
+@media (max-width:600px){.hero h1{font-size:1.6rem}}
